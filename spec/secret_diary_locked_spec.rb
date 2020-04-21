@@ -4,7 +4,7 @@ describe SecretDiaryLocked do
   describe "#lock" do 
 
     it "Returns true when lock method ran" do
-      subject.locked = false
+      subject.unlock
       expect(subject.lock).to eq(true)
     end 
 
