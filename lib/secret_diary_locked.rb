@@ -11,4 +11,9 @@ class SecretDiaryLocked
         @locked = true 
     end 
 
+    def unlock
+        @locked = false
+    end 
+    
+
 end 
