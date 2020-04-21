@@ -10,6 +10,7 @@ class SecretDiaryEditor
   end 
 
   def add_entry(info)
+    raise "Diary is locked cannot add entry" if locked?
     @entry << info
   end 
 
