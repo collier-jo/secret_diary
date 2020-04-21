@@ -15,6 +15,7 @@ class SecretDiaryEditor
   end 
 
   def get_entry(num)
+    raise "Diary is locked cannot read diary" if locked?
     if num == "all"
       return @entry
     else

@@ -28,6 +28,10 @@ describe SecretDiaryEditor do
       subject.add_entry("diary")
       expect(subject.get_entry("all")).to eq(subject.entry)
     end 
+
+    it "raises an error if diary is locked" do
+      expect { subject.get_entry("all") }.to raise_error("Diary is locked cannot read diary")
+    end 
   end 
 
   describe "#unlock_diary" do 
