@@ -46,4 +46,12 @@ describe SecretDiaryEditor do
     end 
   end 
 
+  describe "#lock_diary" do 
+    it "Locks diary" do 
+      subject.unlock_diary
+      expect(subject.lock_diary).to eq(true)
+    end 
+  end 
+
+
 end 

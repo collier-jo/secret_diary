@@ -30,6 +30,10 @@ class SecretDiaryEditor
     @locked.unlock
   end  
 
+  def lock_diary
+    @locked.lock
+  end 
+
   def locked?
     @locked.locked == true 
   end 
