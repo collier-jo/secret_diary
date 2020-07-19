@@ -1,5 +1,7 @@
 # Secret Diary Challenge
 
+[![Build Status](https://travis-ci.org/collier-jo/secret_diary.svg?branch=master)](https://travis-ci.org/collier-jo/secret_diary)
+
 ## Motivation
 
 Main motivations for this project is:
