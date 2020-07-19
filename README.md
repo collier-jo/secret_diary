@@ -18,7 +18,6 @@ Built with:
 ## Tests
 100% test coverage
 
-
 ## Plan 
 
 ### Domain Model 
